@@ -1,0 +1,8 @@
+$xxs: 512px;
+
+
+@mixin xxs{
+    @media screen and (max-width:$xxs){
+        @content;
+    }
+}
